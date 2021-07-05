@@ -3,9 +3,9 @@ def digit_factorials(start, stop):
 
     for num in range(start, stop):
         sup_total = 0
-        for ahh in str(num):
+        for char in str(num):
             total = 1
-            end = int(ahh)
+            end = int(char)
             for i in range(1, end + 1):
                 total *= i
             sup_total += total
@@ -15,4 +15,4 @@ def digit_factorials(start, stop):
     return new_list
 
 
-print(digit_factorials(0,100000))
+print(digit_factorials(0, 100000))
