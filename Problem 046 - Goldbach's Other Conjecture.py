@@ -15,22 +15,22 @@ def prime_list(n):
 
 def disprove_goldbach(prime_limit, int_limit):
     bach_list = []
-    maaa = []
+    composite_list = []
 
     for i in prime_list(prime_limit):
         for num in range(0, 100):
-            ahh = i + 2 * (num ** 2)
-            if ahh % 2 == 1:
-                bach_list.append(ahh)
+            result = i + 2 * (num ** 2)
+            if result % 2 == 1:
+                bach_list.append(result)
 
     bach_list = sorted(list(set(bach_list)))
 
     for i in range(3, int_limit, 2):
-        maaa.append(i)
+        composite_list.append(i)
 
     for i in range(0, 10000):
-        if maaa[i] != bach_list[i]:
-            return maaa[i]
+        if composite_list[i] != bach_list[i]:
+            return composite_list[i]
 
 
 print(disprove_goldbach(10000, 10000))
