@@ -14,7 +14,6 @@ My primary reason for uploading these solutions is to document my progress with 
 ## Why are all the solutions more complicated than mine?
 
 I figured just solving the problems was somewhat limiting and I noticed my solutions would break if just one part of the problem was tweaked, so I opted to instead put [generalizing](https://wiki.c2.com/?WhatIsGeneralization) at the forefront once I can get the answer. Most solutions to these problems are very specific and only work within the context of the respective problem, with the code needing to be manually edited and perhaps changed entirely if a single variable in the question changes, so my solutions are differentiated from the rest because of this.
-[link to Google!](http://google.com)
 
 
 
