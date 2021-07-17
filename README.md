@@ -11,7 +11,7 @@ My goal with undertaking this task is to improve my programming skills, problem-
 My primary reason for uploading these solutions is to document my progress with the first one-hundred Euler Project problems. While I realize a lot of these solutions are far from the most efficient, I think that it is much more important that I showcase progress in my skills and not perfection. It's easy to retrospectively change the code to be better, but as long as the code is sufficient (runs in under a minute on moderate hardware), I think that it's better to keep it as is (unless it's just egregiously bad in hindsight).
 
 
-## Why are all the solutions more complicated than mine?
+## Why are all the solutions more complicated than strictly necessary?
 
 I figured just solving the problems was somewhat limiting and I noticed my solutions would break if just one part of the problem was tweaked, so I opted to instead put [generalizing](https://wiki.c2.com/?WhatIsGeneralization) at the forefront once I can get the answer. Most solutions to these problems are very specific and only work within the context of the respective problem, with the code needing to be manually edited and perhaps changed entirely if a single variable in the question changes, so my solutions are differentiated from the rest because of this.
 
