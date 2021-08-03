@@ -15,7 +15,7 @@ def largest_exponential(file):
     for i in range(0, len(split_list)):
         count += 1
         base = int(split_list[i][0])
-        exp = float(split_list[i][1][:1] + "." + split_list[i][1][1:])
+        exp = float(split_list[i][1][:-len(split_list[i][1]) + 1] + "." + split_list[i][1][-len(split_list[i][1]) + 1:])
         result = base ** exp
 
         if result > greatest:
