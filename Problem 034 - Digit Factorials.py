@@ -11,7 +11,7 @@ def digit_factorials(limit):
         if grand_total == num:
             new_list.append(num)
 
-    return new_list[2:]
+    return new_list
 
 
 total = 0
