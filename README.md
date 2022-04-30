@@ -27,4 +27,4 @@ I figured just solving the problems was somewhat limiting and I noticed my solut
 
 
 ## Sieve of Eratosthenes
-"Problem 010 - Summation of Primes.py" and "Problem 046 - Goldbach's Other Conjecture.py" both utilize a Sieve of Eratosthenes implementation that very closely mirrors [this implementation](https://gist.github.com/jermenkoo/3728135) by [Jaromir Latal](https://gist.github.com/jermenkoo), as this implementation was more efficient than the ones I originally made and makes up a small portion of the problems themselves.
+"Problem 010 - Summation of Primes.py" and "Problem 046 - Goldbach's Other Conjecture.py" both utilize a Sieve of Eratosthenes implementation that very closely mirrors [this implementation](https://gist.github.com/jermenkoo/3728135) by [Jaromir Latal](https://gist.github.com/jermenkoo), as this implementation was more efficient than the ones I originally made and these were two of the earliest problems I worked on.
