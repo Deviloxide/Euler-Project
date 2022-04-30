@@ -23,3 +23,8 @@ I figured just solving the problems was somewhat limiting and I noticed my solut
   "It appears that you have answered your own question. There is nothing quite like that "Aha!" moment when you finally beat a problem which you have been working on for some time. It is often through the best of intentions in wishing to share our insights so that others can enjoy that moment too. Sadly, that will rarely be the case for your readers. Real learning is an active process and seeing how it is done is a long way from experiencing that epiphany of discovery. Please do not deny others what you have so richly valued yourself.
 
   However, the rule about sharing solutions outside of Project Euler does not apply to the first one-hundred problems, as long as any discussion clearly aims to instruct methods, not just provide answers, and does not directly threaten to undermine the enjoyment of solving later problems. Problems 1 to 100 provide a wealth of helpful introductory teaching material and if you are able to respect our requirements, then we give permission for those problems and their solutions to be discussed elsewhere."
+
+
+
+## Sieve of Eratosthenes
+"Problem 010 - Summation of Primes.py" and "Problem 046 - Goldbach's Other Conjecture.py" both utilize a Sieve of Eratosthenes implementation that very closely mirrors [this implementation](https://gist.github.com/jermenkoo/3728135) by [Jaromir Latal](https://gist.github.com/jermenkoo), as this implementation was more efficient than the ones I originally made and makes up a small portion of the problems themselves.
