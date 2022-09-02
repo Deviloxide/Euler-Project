@@ -19,7 +19,7 @@ def triangle_formatter(file):
     return triangle_sublists
 
 
-def solution(tri):
+def max_path_sum(tri):
     length = len(tri)
 
     for row in range(length - 2, -1, -1):
@@ -30,4 +30,4 @@ def solution(tri):
 
 triangle = triangle_formatter("Additional Files\p067_triangle.txt")
 
-print(solution(triangle))
+print(max_path_sum(triangle))
