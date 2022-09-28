@@ -10,7 +10,7 @@ def multiples_of_3_and_5(num, type):
             pass
 
     if type == "sum":
-        answer = fizzy_list.sum()
+        answer = sum(fizzy_list)
     else:
         answer = fizzy_list
 
