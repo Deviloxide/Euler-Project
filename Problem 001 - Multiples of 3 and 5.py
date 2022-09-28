@@ -17,8 +17,6 @@ def multiples_of_3_and_5(num, type):
     return answer
 
 
-print(multiples_of_3_and_5(1000, list))
-
-print(multiples_of_3_and_5(1000, sum))
+print(multiples_of_3_and_5(1000, "sum"))
 
 print(multiples_of_3_and_5(1000, "Thanh"))
